@@ -33,7 +33,9 @@ Models were evaluated using MAE, RMSE, and residual analysis. LSTM achieved the 
 ---
 ## 6. Residual Analysis
 Residual analysis shows that ARIMA exhibits large and structured residuals, indicating poor adaptability to sudden changes in COVID-19 trends. SARIMA significantly improves upon ARIMA by modeling seasonality and achieves lower error metrics; however, its residuals still exhibit mild temporal structure, suggesting sensitivity to regime shifts and non-stationary behavior.
+
 XGBoost demonstrates the most randomly distributed and stable residuals, with errors well-centered around zero and minimal visible structure. This indicates strong robustness to noise, reporting inconsistencies, and sudden changes in case trends, making XGBoost highly suitable for real-world deployment.
+
 LSTM residuals are generally centered around zero and show no strong systematic bias, confirming the model’s high predictive accuracy. However, the residual distribution is wider and slightly skewed compared to XGBoost, indicating higher variance and reduced stability during abrupt surges. While LSTM excels in short-term prediction accuracy, its residual behavior suggests greater sensitivity to data volume and temporal window selection.
 
 ---
