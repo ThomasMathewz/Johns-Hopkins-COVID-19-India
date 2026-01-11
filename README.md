@@ -57,9 +57,14 @@ Although LSTM achieved the lowest MAE and RMSE, XGBoost was selected as the prod
 ---
 ## 9. Conclusion
 This project presents a comprehensive and well-validated COVID-19 forecasting framework for India, incorporating detailed exploratory data analysis along with multiple statistical, machine learning, and deep learning models, evaluated using consistent and rigorous performance criteria.
+
 Among all evaluated models, LSTM achieved the highest predictive accuracy, as reflected by the lowest MAE and RMSE values, demonstrating its strong capability in learning temporal dependencies and short-term trends. SARIMA emerged as the best-performing classical statistical model, delivering competitive error metrics by effectively modeling seasonality and trend components. However, XGBoost exhibited the most stable and well-behaved residual patterns, indicating greater robustness to noise, reporting inconsistencies, and sudden fluctuations in case trends.
+
 Accordingly, LSTM is identified as the best model in terms of prediction accuracy, SARIMA as the strongest traditional time-series model, and XGBoost as the most reliable and production-ready model. Together, these findings provide a balanced and technically sound foundation for informed public health planning and decision-making.
+
 LSTM → Best prediction accuracy
+
 SARIMA → Best classical statistical model
+
 XGBoost → Best residual behavior & production stability
 
